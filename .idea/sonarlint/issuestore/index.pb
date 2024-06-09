@@ -17,3 +17,15 @@ h
 8src/main/java/org/example/matchers/FunctionMatchers.java,f\9\f98ce1c10b2041a23703b4a8dcb64ba2ac5f69fe
 d
 4src/main/java/org/example/reduce/FunctionReduce.java,1\e\1ed313eb12698887cb4f9dbc48f8c31567134a7b
+n
+>src/main/java/org/example/comparators/interfaceComparator.java,9\f\9fb885b3dd68f3c56379a441ff1cb4d908332751
+\
+,src/main/java/org/example/reduce/Person.java,d\6\d6c08be4965c39ee293692da966c8d023c8a7ae9
+h
+8src/main/java/org/example/utils/interfaceComparator.java,5\e\5e6410a0f7ba72a0099ee1fe3257ec30075c4408
+h
+8src/main/java/org/example/utils/interfaceCollectors.java,c\d\cd34c50d7e6224496d3deb1b47f20f9825075320
+f
+6src/main/java/org/example/utils/PersonWithBornAge.java,e\e\ee0ffdf8a9107ee60975d48f46da62f17943f011
+`
+0src/main/java/org/example/utils/PersonUtils.java,5\b\5be69e016b6d2fb692303968033ff756b5c81b6f

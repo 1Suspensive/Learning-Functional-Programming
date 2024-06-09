@@ -1,8 +1,6 @@
 package org.example.reduce;
 
-import java.util.Arrays;
-import java.util.Optional;
-import java.util.OptionalInt;
+import java.util.*;
 
 public class FunctionReduce {
     public static void main(String[] args) {
@@ -29,5 +27,28 @@ public class FunctionReduce {
                 .reduce((str1, str2) -> str1 + "-" + str2);
 
         System.out.println(stringConcanated.orElseThrow());
+
+        //Advanced reduce
+
+        List<String> nombres = List.of("Jeferson","Amelia","Andres","Yeison");
+        String reduccionCadena = nombres.stream()
+                .reduce("", (str1, str2) -> str1 + "-" + str2);
+
+        System.out.println(reduccionCadena);
+
+        ArrayList<Object> listUsingAdavancedReduction = nombres.stream()
+                .filter(name -> name.startsWith("A"))
+                .reduce(new ArrayList<>(),
+                        (lista, elemento) -> {
+                            lista.add(elemento);
+                            return lista;
+                        },
+                        (list1, list2) -> {
+                            list1.addAll(list2);
+                            return list1;
+                        }
+                );
+        System.out.println(listUsingAdavancedReduction);
+
     }
 }
